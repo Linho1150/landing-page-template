@@ -51,7 +51,7 @@
     <link rel="icon" href="/docs/5.2/assets/img/favicons/favicon.ico" />
     <meta name="theme-color" content="#712cf9" />
 
-    <link href="index.css" rel="stylesheet" />
+    <link href="./resource/css/index.css" rel="stylesheet" />
   </head>
   <body class="d-flex h-100 text-center">
     <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
@@ -62,24 +62,30 @@
       </header>
 
       <main class="px-3">
-        <img src="logo.svg" height="180" />
+        <img src="./resource/svg/logo.svg" height="180" />
+        <!-- src: 버튼 클릭시 연결할 링크 -->
         <h1></h1>
+        <!-- 제목: 15자를 기준으로 br 태그를 활용하길 권장 -->
         <p class="lead">
           현대인들의 건강 관리를 위해<br />영양제 섭취는 필수죠!
         </p>
         <p class="lead">
-          <!--<a
-            href="./filename.apk"
+          <!--
+            ** Apk 파일을 직접 첨부하기 위한 코드입니다
+            
+            <a href="./filename.apk"
             type="application/vnd.android.package-archive"
             target="_blank"
             class="btn btn-lg btn-secondary fw-bold border-white bg-white"
-            ><img src="./download.svg" /> 안드로이드(APK)</a
-          >-->
+            ><img src="./download.svg" /> 안드로이드(APK)</a>
+          -->
+
           <a
             href="https://play.google.com/store/apps/details?id=com.prography.pilit"
             class="btn btn-lg btn-secondary fw-bold border-white bg-white"
           >
-            <img src="./download.svg" /> 아이폰(App Store)</a
+            <!-- href: 버튼 클릭시 연결할 링크 -->
+            <img src="./resource/svg/download.svg" /> 아이폰(App Store)</a
           >
         </p>
         <p class="lead">
@@ -87,7 +93,8 @@
             href="https://apps.apple.com/kr/app/pilit/id1625643895"
             class="btn btn-lg btn-secondary fw-bold border-white bg-white"
           >
-            <img src="./download.svg" /> 아이폰(App Store)</a
+            <!-- href: 버튼 클릭시 연결할 링크 -->
+            <img src="./resource/svg/download.svg" /> 아이폰(App Store)</a
           >
         </p>
       </main>
